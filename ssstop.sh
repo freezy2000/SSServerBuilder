@@ -1,1 +1,1 @@
-ssserver -c /etc/shadowsocks/config.json -d stop
+ssserver -c /etc/shadowsock/shadowsocks.json -d stop
