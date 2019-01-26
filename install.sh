@@ -19,7 +19,7 @@ curl https://raw.githubusercontent.com/freezy2000/SSServerBuilder/master/ssstart
 
 
 chmod +x ssstart.sh
-chmod +x ssstaop.sh
+chmod +x ssstop.sh
 
 ##Modify congfig file
 read -n1 -p "Please modify /ect/shadowsock/shadowsocks.json"
