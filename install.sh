@@ -22,5 +22,5 @@ chmod +x ssstart.sh
 chmod +x ssstop.sh
 
 ##Modify congfig file
-read -n1 -p "Please modify /ect/shadowsock/shadowsocks.json"
+read -n1 -p "Please modify shadowsocks.json"
 vi /etc/shadowsock/shadowsocks.json
