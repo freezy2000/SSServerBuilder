@@ -22,4 +22,4 @@ chmod +x ssstaop.sh
 
 ##Modify congfig file
 read -n1 -p "Please modify /ect/shadowsock/shadowsocks.json"
-vi /ect/shadowsock/shadowsocks.json
+vi /etc/shadowsock/shadowsocks.json
