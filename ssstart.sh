@@ -1,1 +1,1 @@
-ssserver -c /etc/shadowsocks/config.json -d start
+ssserver -c /etc/shadowsock/shadowsocks.json -d start
