@@ -8,7 +8,7 @@ python get-pip.py
 pip install shadowsocks
 
 ##Download Config file from github
-curl https://raw.githubusercontent.com/freezy2000/SSServerBuilder/master/shadowsocks.json -o shadowsocks.json
+curl https://raw.githubusercontent.com/freezy2000/SSServerBuilder/master/config.json -o shadowsocks.json
 
 mkdir /etc/shadowsock/
 mv shadowsocks.json /etc/shadowsock/
