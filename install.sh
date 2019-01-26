@@ -8,14 +8,14 @@ python get-pip.py
 pip install shadowsocks
 
 ##Download Config file from github
-curl https://github.com/freezy2000/SSServerBuilder/shadowsocks.json -o shadowsocks.json
+curl https://raw.githubusercontent.com/freezy2000/SSServerBuilder/master/shadowsocks.json -o shadowsocks.json
 
 mkdir /etc/shadowsock
 mv shadowsocks.json /etc/shadowsock/
 
 ##Download SSStart and SSStop file
-curl https://github.com/freezy2000/SSServerBuilder/ssstart.sh
-curl https://github.com/freezy2000/SSServerBuilder/ssstop.sh
+curl https://raw.githubusercontent.com/freezy2000/SSServerBuilder/master/SSServerBuilder/ssstart.sh
+curl https://raw.githubusercontent.com/freezy2000/SSServerBuilder/master/SSServerBuilder/ssstop.sh
 
 chmod +x ssstart.sh
 chmod +x ssstaop.sh
