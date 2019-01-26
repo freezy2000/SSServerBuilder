@@ -11,11 +11,11 @@ pip install shadowsocks
 curl https://raw.githubusercontent.com/freezy2000/SSServerBuilder/master/config.json -o shadowsocks.json
 
 mkdir /etc/shadowsock/
-mv shadowsocks.json /etc/shadowsock/
+mv -f shadowsocks.json /etc/shadowsock/
 
 ##Download SSStart and SSStop file
-curl https://raw.githubusercontent.com/freezy2000/SSServerBuilder/master/SSServerBuilder/ssstart.sh
-curl https://raw.githubusercontent.com/freezy2000/SSServerBuilder/master/SSServerBuilder/ssstop.sh
+curl https://raw.githubusercontent.com/freezy2000/SSServerBuilder/master/SSServerBuilder/ssstart.sh -o ssstart.sh
+curl https://raw.githubusercontent.com/freezy2000/SSServerBuilder/master/SSServerBuilder/ssstop.sh -o ssstop.sh
 
 chmod +x ssstart.sh
 chmod +x ssstaop.sh
