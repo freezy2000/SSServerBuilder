@@ -22,6 +22,7 @@ chmod +x ssstop.sh
 
 ##Modify firewall
 firewall-cmd --zone=public --add-port=1357/tcp --permanent
+firewall-cmd --zone=public --remove-port=80/tcp --permanent
 
 ##Reload firewall
 firewall-cmd --reload
